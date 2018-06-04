@@ -1,5 +1,5 @@
 import {NgModule} from "@angular/core";
-import {MatButtonModule, MatCardModule, MatExpansionModule} from "@angular/material";
+import {MatButtonModule, MatCardModule, MatExpansionModule, MatListModule} from "@angular/material";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 
@@ -8,13 +8,15 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     MatButtonModule,
     MatCardModule,
     MatExpansionModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatListModule
   ],
   exports: [
     MatButtonModule,
     MatCardModule,
     MatExpansionModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatListModule
   ],
 })
 export class MaterialModule { }

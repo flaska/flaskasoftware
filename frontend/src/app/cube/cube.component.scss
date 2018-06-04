@@ -1,0 +1,81 @@
+$cubeSize: 200px;
+$primaryColor: #039BE5;
+$accentColor: #AEEA00;
+
+.scene {
+  width: $cubeSize;
+  height: $cubeSize;
+  perspective: $cubeSize*3;
+  margin: 70px auto;
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  animation: spin 15s infinite linear;
+}
+
+.cube__face {
+  position: absolute;
+  width: $cubeSize;
+  height: $cubeSize;
+  line-height: $cubeSize;
+  text-align: center;
+  opacity: 1;
+  border: 1px solid white;
+  background-color: $primaryColor;
+  color: white;
+  font-size: 3em;
+}
+
+.cube__face--front {
+  transform: rotateY(0deg) translateZ($cubeSize/2);
+}
+
+.cube__face--right {
+  transform: rotateY(90deg) translateZ($cubeSize/2);
+}
+
+.cube__face--back {
+  transform: rotateY(180deg) translateZ($cubeSize/2);
+}
+
+.cube__face--left {
+  transform: rotateY(-90deg) translateZ($cubeSize/2);
+  background-color: $accentColor;
+}
+
+.cube__face--top {
+  transform: rotateX(90deg) translateZ($cubeSize/2);
+}
+
+.cube__face--bottom {
+  transform: rotateX(-90deg) translateZ($cubeSize/2);
+}
+
+
+@-webkit-keyframes spin {
+  from {
+    transform: rotateY(0)
+  }
+  to {
+    transform: rotateY(-360deg)
+  }
+}
+
+
+
+.name {
+  text-align: center;
+  color: $primaryColor;
+  font-size: 3em;
+}
+
+.motto {
+  text-align: center;
+  //color: $primaryColor;
+  font-size: 1em;
+}
