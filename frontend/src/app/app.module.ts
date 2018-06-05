@@ -10,6 +10,7 @@ import {CocktailPageComponent} from "./pages/cocktail/cocktail.page.component";
 import {TechnologyPageComponent} from "./pages/technology/technology.page.component";
 import {PricingPageComponent} from "./pages/pricing/pricing.page.component";
 import {ExperiencePageComponent} from "./pages/experience/experience.page.component";
+import {ContactPageComponent} from "./pages/contact/contact.page.component";
 
 @NgModule({
   declarations: [
@@ -20,8 +21,8 @@ import {ExperiencePageComponent} from "./pages/experience/experience.page.compon
     CocktailPageComponent,
     TechnologyPageComponent,
     PricingPageComponent,
-    ExperiencePageComponent
-
+    ExperiencePageComponent,
+    ContactPageComponent
 
   ],
   imports: [
