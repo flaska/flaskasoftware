@@ -6,6 +6,5 @@ import {Component, Input} from "@angular/core";
   styleUrls: ['./experience.link.component.css']
 })
 export class ExperienceLinkComponent{
-  @Input() logoName: string;
-  @Input() companyFullname: string;
+  @Input() companyName: string;
 }

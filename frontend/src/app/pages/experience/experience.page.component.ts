@@ -5,6 +5,5 @@ import {Component} from "@angular/core";
   templateUrl: './experience.page.component.html'
 })
 export class ExperiencePageComponent{
-
-
+  companies = ['nih', 'msc','fontai', 'femhub', 'festka', 'trilogic', 'visme', 'hindsite', 'nclab'];
 }
