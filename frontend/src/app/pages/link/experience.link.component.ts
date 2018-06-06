@@ -7,4 +7,5 @@ import {Component, Input} from "@angular/core";
 })
 export class ExperienceLinkComponent{
   @Input() companyName: string;
+  @Input() type: string;
 }

@@ -1,4 +1,8 @@
 Coding runs through our veins. We use the latest technologies to create the best results.<br>
 <br>
-node.js | angular | react | docker | elastic-search | server-less | aws
+
+<mat-accordion>
+  <experience-link *ngFor="let name of technologyList" [companyName]="name" [type]="'technology'"></experience-link>
+</mat-accordion>
+
 

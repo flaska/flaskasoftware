@@ -6,5 +6,7 @@ import {Component} from "@angular/core";
 })
 export class TechnologyPageComponent{
 
+  technologyList = ['nodejs', 'angular', 'react', 'mongodb', 'elastic', 'aws'];
 
 }
+

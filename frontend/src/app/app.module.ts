@@ -11,7 +11,7 @@ import {TechnologyPageComponent} from "./pages/technology/technology.page.compon
 import {PricingPageComponent} from "./pages/pricing/pricing.page.component";
 import {ExperiencePageComponent} from "./pages/experience/experience.page.component";
 import {ContactPageComponent} from "./pages/contact/contact.page.component";
-import {ExperienceLinkComponent} from "./pages/experience/link/experience.link.component";
+import {ExperienceLinkComponent} from "./pages/link/experience.link.component";
 
 @NgModule({
   declarations: [
