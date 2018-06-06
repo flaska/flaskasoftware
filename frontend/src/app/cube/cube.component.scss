@@ -1,4 +1,4 @@
-$cubeSize: 200px;
+$cubeSize: 150px;
 $primaryColor: #039BE5;
 $accentColor: #AEEA00;
 
@@ -28,7 +28,7 @@ $accentColor: #AEEA00;
   border: 1px solid white;
   background-color: $primaryColor;
   color: white;
-  font-size: 3em;
+  font-size: 2.25em;
 }
 
 .cube__face--front {
@@ -71,7 +71,7 @@ $accentColor: #AEEA00;
 .name {
   text-align: center;
   color: $primaryColor;
-  font-size: 3em;
+  font-size: 2.25em;
 }
 
 .motto {
