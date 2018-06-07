@@ -12,6 +12,8 @@ import {PricingPageComponent} from "./pages/pricing/pricing.page.component";
 import {ExperiencePageComponent} from "./pages/experience/experience.page.component";
 import {ContactPageComponent} from "./pages/contact/contact.page.component";
 import {ExperienceLinkComponent} from "./pages/link/experience.link.component";
+import {ExperienceModule} from "../experience/experience.module";
+import {ExperienceContentComponent} from "./pages/experience/content/experience.content.component";
 
 @NgModule({
   declarations: [
@@ -25,11 +27,13 @@ import {ExperienceLinkComponent} from "./pages/link/experience.link.component";
     ExperiencePageComponent,
     ContactPageComponent,
 
-    ExperienceLinkComponent
+    ExperienceLinkComponent,
+    ExperienceContentComponent
   ],
   imports: [
     BrowserModule,
-    MaterialModule
+    MaterialModule,
+    ExperienceModule
 
   ],
   providers: [],
